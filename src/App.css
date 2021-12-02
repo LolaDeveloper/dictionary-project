@@ -1,9 +1,19 @@
+body {
+  background: #f9f8fe;
+}
+a {
+  color: #342679;
+}
 .App-header {
-  margin: 30px 0;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+  margin: 1px;
+  vertical-align: top;
 }
 .App-logo {
   max-width: 100px;
-  display: block;
+
   margin: 0 auto;
 }
 .App-footer {
