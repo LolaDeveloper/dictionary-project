@@ -7,14 +7,17 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <div>
-            <img src={logo} className="App-logo img-fluid " alt="logo" />
-          </div>
+          <div className="row">
+            <div className="col-4">
+              <img src={logo} className="App-logo img-fluid " alt="logo" />
+            </div>
 
-          <div className="description">
-            <p>Dictionary App By Lola</p> <p>Use your words...</p>
+            <div className="description mt-4 col-8">
+              <span>Dictionary App By Lola</span>
+              <br />
+              <span>Use your words...</span>
+            </div>
           </div>
-          <div> </div>
         </header>
         <main>
           <Dictionary />
