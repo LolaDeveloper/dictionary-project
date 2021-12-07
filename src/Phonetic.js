@@ -1,4 +1,6 @@
 import React from "react";
+import Results from "./Results";
+import ReactAudioPlayer from "react-audio-player";
 
 import "./Phonetic.css";
 
@@ -6,18 +8,15 @@ export default function Phonetic(props) {
   if (props.phonetic.audio) {
     return (
       <div className="Phonetic">
-        <a href={props.phonetic.audio} target="_blank" rel="noreferrer">
-          {" "}
-          Listen
-        </a>
+        <ReactAudioPlayer src={props.phonetic.audio} Volume={0.2} controls />
 
-        <span className="text"> /{props.phonetic.text}/</span>
+        <p className="text mb-0"> /{props.phonetic.text}/</p>
       </div>
     );
   } else {
     return (
       <div className="Phonetic">
-        <span className="text"> /{props.phonetic.text}/</span>
+        <p className="text mb-0"> /{props.phonetic.text}/</p>
       </div>
     );
   }
