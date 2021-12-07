@@ -10,12 +10,15 @@ a {
 }
 .App-header {
   margin: 30px auto;
+  padding: 10px 10px;
   display: flex;
   vertical-align: top;
+  font-family: "Pacifico", cursive;
+  font-size: 16px;
+  background-color: rgba(227, 223, 230, 0.459);
 }
 .App-logo {
   max-width: 100px;
-
   margin: 0 auto;
 }
 .App-footer {

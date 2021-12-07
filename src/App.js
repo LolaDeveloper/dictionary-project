@@ -13,9 +13,9 @@ export default function App() {
             </div>
 
             <div className="description mt-4 col-8">
-              <span>Dictionary App By Lola</span>
+              <span>Dictionary App by Lola</span>
               <br />
-              <span>Use your words...</span>
+              <span className="text-muted">Use your words...</span>
             </div>
           </div>
         </header>
