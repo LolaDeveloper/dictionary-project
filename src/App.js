@@ -6,7 +6,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">
+        <header className="App-header mb-0">
           <div className="row">
             <div className="col-4">
               <img src={logo} className="App-logo img-fluid " alt="logo" />

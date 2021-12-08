@@ -8,7 +8,15 @@ export default function Results(props) {
     return (
       <div className="Results">
         <section>
-          <h2> {props.results.word}</h2>
+          <div className="d-flex">
+            <h2>
+              {" "}
+              {props.results.word} {""}
+              {""}
+            </h2>
+            <p> /{props.results.phonetic}/</p>
+          </div>
+
           {props.results.phonetics.map(function (phonetic, index) {
             return (
               <div key={index}>

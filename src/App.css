@@ -1,5 +1,5 @@
 body {
-  background: #f9f8fe;
+  background: rgba(227, 223, 230, 0.459);
 }
 a {
   color: #342679;
@@ -15,7 +15,7 @@ a {
   vertical-align: top;
   font-family: "Pacifico", cursive;
   font-size: 16px;
-  background-color: rgba(227, 223, 230, 0.459);
+  background-color: rgba(227, 223, 230, 0.295);
 }
 .App-logo {
   max-width: 100px;
