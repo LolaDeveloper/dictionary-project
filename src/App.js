@@ -1,5 +1,6 @@
 import logo from "./logo.gif";
 import Dictionary from "./Dictionary.js";
+
 import "./App.css";
 
 export default function App() {
@@ -11,7 +12,6 @@ export default function App() {
             <div className="col-4">
               <img src={logo} className="App-logo img-fluid " alt="logo" />
             </div>
-
             <div className="description mt-4 col-8">
               <span>Dictionary App by Lola</span>
               <br />
