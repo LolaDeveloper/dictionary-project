@@ -1,12 +1,13 @@
 import logo from "./logo.gif";
 import Dictionary from "./Dictionary.js";
-
+import Particles from "react-tsparticles";
 import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
+        <Particles />
         <header className="App-header mb-0">
           <div className="row">
             <div className="col-4">
