@@ -21,3 +21,12 @@
   color: #333;
   border: 1px solid #ddd;
 }
+
+@media (max-width: 960px) {
+  .Dictionary h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+}
